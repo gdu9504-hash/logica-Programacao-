@@ -37,23 +37,25 @@ quantidade = entradaNumero.nextInt();
      
      break;
          case 2:
-              valorTotal= 15*quantidade;
+              valorTotal= 25*quantidade;
             System.out.println("===========Pedido==========");
             System.out.println("Produto:Pizza\nQuantidade: "+quantidade+"\nPreco unitario: R$25,00\n"+valorTotal);
         break;
          case 3 :
+              valorTotal= 12*quantidade;
             System.out.println("===========Pedido==========");
              System.out.println("Produto:Cachorro-quante\nQuantidade: "+quantidade+"\nPreco unitario: R$25,00\n"+valorTotal);
         break;
+        default:
         System.out.println("===========Pedido==========");
-        System.out.println("Produto:suco\nQuantidade: "+quantidade+"\nPreco unitario: R$8,00\n"+" Valor total:"+valorTotal);
         
-     
+        
+     break;
             
             
             
             
-            {
+            
      }
        
     
